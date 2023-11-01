@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: tahoma, arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: fixed linear-gradient(152deg, rgba(238,128,178,1) 0%, rgba(6,6,6,1) 49%, rgba(107,145,230,1) 100%);
+}

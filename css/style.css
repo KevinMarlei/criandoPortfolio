@@ -1,0 +1,118 @@
+main {
+    height: 100%;
+
+}
+
+header {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px black;
+    border-radius: 1rem;
+    
+    
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem;
+
+}
+
+.photo {
+    width: 150px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 1.3rem;
+    /* text-align: center; */
+}
+h4{
+    font-size: 0.9rem;
+}
+.information {
+    color:white;
+    text-align: start;
+    padding-left: 15px;
+}
+
+.information p a {
+   color: white;
+}
+
+.buttons-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 1rem;
+}
+
+
+button {
+    display: flex;
+    width: 90%;
+    height: 2rem;
+    margin: 0.5rem;
+    text-align: start;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border: solid 1px white;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: rgb(87, 87, 150);
+    transition: 0.3s;
+}
+button::after {
+    display: flex;
+    content: url(../icons/seta.svg);
+    justify-content: end;
+}
+.rotate::after{
+    transform: rotate(180deg);
+}
+/* @keyframes rotate{
+    0%{
+        transform:rotate(180deg);
+    }
+   
+   
+} */
+
+.information .icon::before {
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.information .job::before {
+    content: url(../icons/job.svg);
+}
+
+.information .locale::before {
+    content: url(../icons/geo-alt.svg); 
+}
+
+.information .number::before {
+    content: url(../icons/whatsapp.svg);
+}
+
+.information .email::before {
+    content: url(../icons/envelope.svg);
+}
+
+
+

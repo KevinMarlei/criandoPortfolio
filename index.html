@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/buttonContent.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="perfil">
+                <img src="./img/img.jpg" alt="foto de perfil" class="photo profile.photo">
+                <div class="information">
+                    <h1>Olá, eu sou<br> <span class="profile.name">Carregando</span></h1>
+                    <p class="job icon"><span class="profile.job">Carregando</span></p>
+                    <p class="locale icon"><span class="profile.location">Carregando</span></p>
+                    <p class="number icon"><a href="https://wa.me/34622199642"><span class="profile.number">Carregando</span></a></p>
+                    <p class="email icon"><a href="mailto:kevin_ssdp@hotmail.com"><span class="profile.email">Carregando</span></a></p>
+                </div>
+            </div>
+            <div class="buttons-info">
+                <button type="button" class="skills rotate">Skills</button>
+                <div id="skills-content" class="visible" style="display: none;">
+                    <div class="skills-subtitle">
+                        <h4 class="hbPro">Habilidades <br>Profissionais:</h4>
+                        <h4 class="hbPer">Habilidades <br>Pessoais:</h4>
+                    </div>
+                    <div class="skills-visible ">
+                        <div class="habilityPro">
+                            <span class="js">JS</span>
+                            <span class="css">CSS</span>
+                            <span class="html">HTML</span>
+                        </div>
+
+                        <div class="habilityPerson">
+                            <p>Facilidade com tarefas práticas</p>
+                            <p>Comunicação</p>
+                            <p>Trabalho em equipe</p>
+                            <p>Organização</p>
+                            <p>Comprometimento com resultados</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="language rotate">Idiomas</button>
+                <div style="display: none;" id="language-content" class="visible">
+                    <ul>
+                        <li class="check">Português</li>
+                        <li class="check">Espanhol</li>
+                    </ul>
+                </div>
+
+                <button type="button" class="education rotate">Educação</button>
+                <div class="educationBox visible" style="display: none;">
+                    <h4>Minhas conquistas na DIO</h4>
+                    <span class="imagesCurso">
+                        <p class="imageCSS"></p>
+                        <p class="imageHTML"></p>
+                        <p class="imageJS"></p>
+                    </span>
+                    <span class="cursoDescription">
+                        <p class="descriptionFormation">dio.me</p>
+                        <p class="descriptionText">Formação JavaScript Developer</p>
+                    </span>
+                </div>
+
+                <button type="button" class="portifolio rotate">Portifólio</button>
+                <div class="portifolioBox visible" style="display: none;">
+                    <span class="portfolioLinks">
+                        <div class="portfolioBox">
+                        <h4>Listagem de nomes e exibição de digimons manipulando api</h4>
+                        <a href="https://github.com/KevinMarlei/digivice">https://github.com/KevinMarlei/digivice</a>
+
+                        <h4>Criando uma pokedex manipulando api</h4>
+                        <a href="http://github.com/KevinMarlei/PokedexDigi">http://github.com/KevinMarlei/PokedexDigi</a>
+                    </div>
+                    </span>
+                </div>
+                <button type="button" class="experience rotate">Experiência Profissional</button>
+                <span class="experienceBox visible" style="display: none;">
+                    <div class="experienceText">
+                        <h4>Front -End Developer / dio.me</h4>
+                        <p class="date">jan 2020 - Current</p>
+                    </div>
+                </span>
+            </div>
+
+        </header>
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
