@@ -50,18 +50,18 @@ function showPortfolio(){
     })
 }
 
-function showExperience(){
-    const boxExperience = document.querySelector('.experienceBox');
-    const buttonExperience = document.querySelector('.experience');
+// function showExperience(){
+//     const boxExperience = document.querySelector('.experienceBox');
+//     const buttonExperience = document.querySelector('.experience');
 
-    buttonExperience.addEventListener('click', ()=>{
-        if(boxExperience.style.display === 'none'){
-            boxExperience.style.display = 'block';
-        }else{
-            boxExperience.style.display = 'none';
-        }
-    })
-}
+//     buttonExperience.addEventListener('click', ()=>{
+//         if(boxExperience.style.display === 'none'){
+//             boxExperience.style.display = 'block';
+//         }else{
+//             boxExperience.style.display = 'none';
+//         }
+//     })
+// }
 
 const buttons = document.querySelectorAll('.rotate');
 buttons.forEach((button)=>{
@@ -74,7 +74,7 @@ showLanguage();
 showSkills();
 showEducation();
 showPortfolio();
-showExperience();
+// showExperience();
 
 
 
