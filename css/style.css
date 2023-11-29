@@ -114,5 +114,8 @@ button::after {
     content: url(../icons/envelope.svg);
 }
 
+.information .github::before{
+    content: url(../icons/github.svg);
+}
 
 
